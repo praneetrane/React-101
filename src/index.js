@@ -1,16 +1,19 @@
-import react from 'react';
-import reactDOM from 'react-dom';
+import React from 'react';
+import reactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 
-function MyApp(){
+function MyInfo(){
   return (
-    <html>
+    <div>
+      <h1>Praneet Rane</h1>
+      <p style={{color: "Purple", fontStyle: "Italic"}}>I am a fullstack .Net developer. <br/> My favourite vacation spots are:</p>
       <ul>
-      <li>C#</li> 
-      <li> React JS</li> 
-      <li> Angular </li> 
+        <li>Andaman</li>
+        <li>Dubai</li>
+        <li>Santorini</li>
       </ul>
-    </html> 
-    );
+    </div>
+  );
 }
 
-reactDOM.render( <MyApp/>, document.getElementById('root'));
+reactDom.render(<MyInfo/> , document.getElementById("root"));
