@@ -1,4 +1,16 @@
 import react from 'react';
 import reactDOM from 'react-dom';
 
-reactDOM.render(<ul><li>C#</li> <li> React JS</li> <li> Express JS </li> </ul> , document.getElementById('root'));
+function MyApp(){
+  return (
+    <html>
+      <ul>
+      <li>C#</li> 
+      <li> React JS</li> 
+      <li> Angular </li> 
+      </ul>
+    </html> 
+    );
+}
+
+reactDOM.render( <MyApp/>, document.getElementById('root'));
