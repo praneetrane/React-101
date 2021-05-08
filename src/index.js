@@ -1,8 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import react from 'react';
+import reactDOM from 'react-dom';
 
-ReactDOM.render(<div> <h1>Hello Shambhavi!</h1><p>This is a Paragraph</p></div> ,
-  document.getElementById('root')
-);
-
-
+reactDOM.render(<ul><li>C#</li> <li> React JS</li> <li> Express JS </li> </ul> , document.getElementById('root'));

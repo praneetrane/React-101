@@ -1,3 +1,3 @@
-# Getting Started with React 
+# React learning project  
 
 This is my React learning project.
