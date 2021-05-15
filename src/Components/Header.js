@@ -1,8 +1,9 @@
 import react from 'react'
 
+
 function Header(){
     return (
-        <header>This is Header component </header>
+        <header className="navbar">This is Header component </header>
     );
 }
 
